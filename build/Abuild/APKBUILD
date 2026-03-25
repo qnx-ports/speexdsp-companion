@@ -2,7 +2,7 @@
 # Maintainer: Leo Shen <yishen@qnx.com>
 pkgname=speexdsp
 pkgver=1.2.1
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="A voice compression format (DSP)"
 url="https://www.speex.org/"
 vcs_url="https://gitlab.xiph.org/xiph/speexdsp"
@@ -36,7 +36,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 5b82a87390976cfe1272c896a6a29b6b7eacd0b747adf707e7286b9c5612d486686e24bdb3112e8b6b044f413e7cb9b6a580d0222def87fbbad58c0be49335ba  speexdsp-SpeexDSP-1.2.1.tar.bz2
 "
